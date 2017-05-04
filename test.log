@@ -1,0 +1,82 @@
+﻿2016-07-08 09:33:52-[Analysis-WC] INFO [main] SysInit.init(104) | 开始进行系统组件初始化....
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] SysInit.init(107) | 开始进行系统上下文环境初始化....
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] SysContextUtil.init(99) | into SysContextUtil.init method begin ....
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] SysContextUtil.init(111) | SysContextUtil.init method end ....
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] SysContextUtil.getConfigedSimpleJdbcTemplate(186) | into getConfigedSimpleJdbcTemplate method begin ....
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] SysContextUtil.getConfigedSimpleJdbcTemplate(187) | get a getConfigedSimpleJdbcTemplate Object!
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] SysContextUtil.getConfigedSimpleJdbcTemplate(197) | getConfigedSimpleJdbcTemplate method end ....
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] JdbcTemplate.query(435) | Executing SQL query [select now()]
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] PoolBackedDataSource.getPoolManager(257) | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource@135768fe[ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 135768fe, idleConnectionTestPeriod -> -1, initialPoolSize -> 5, jdbcUrl -> jdbc:mysql://192.168.88.181:3306/wind?useUnicode=true&characterEncoding=UTF-8, loginTimeout -> 0, maxIdleTime -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 300, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, usesTraditionalReflectiveProxies -> false ]
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] BasicResourcePool.awaitAcquire(942) | awaitAvailable(): [unknown]
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 0, unused: 0, excluded: 0]
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 1, unused: 1, excluded: 0]
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [main] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] DateUtil$SysDate.<clinit>(914) | 数据库与服务器时间差为:28326532
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] FormulaContextUtil.init(68) | into FormulaContextUtil.init method begin ....
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] FormulaContextUtil.init(133) | FormulaContextUtil.init method end ....
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 4, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] DEBUG [com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 5, unused: 5, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] SysInit.init(119) | 系统初始化当前时间为：2016-07-08 17:26:00.001
+2016-07-08 09:33:53-[Analysis-WC] INFO [main] SysInit.init(122) | 系统组件初始化结束....
+2016-07-08 09:34:39-[Analysis-WC] ERROR [http-8080-2] ControllerProxy.afterMethod(43) | java.lang.NullPointerException
+2016-07-08 09:34:41-[Analysis-WC] INFO [http-8080-2] FrameController.dashboard(41) | Start FrameController --> dashboard()
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] SqlBuilder.getSql(69) | 原始SQL:SELECT F.FUNC_NAME,F.FUNC_CODE,F.PARENT_FUNC_CODE,F.REQ_NUM,F.DATA_ID,F.URL,F.ICON_CLASS FROM SYS_ROLE_FUNC_REF R,SYS_FUNC F WHERE R.FUNC_CODE=F.FUNC_CODE AND R.ROLE_CODE=:roleCode
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.query(637) | Executing prepared SQL query
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.execute(572) | Executing prepared SQL statement [SELECT F.FUNC_NAME,F.FUNC_CODE,F.PARENT_FUNC_CODE,F.REQ_NUM,F.DATA_ID,F.URL,F.ICON_CLASS FROM SYS_ROLE_FUNC_REF R,SYS_FUNC F WHERE R.FUNC_CODE=F.FUNC_CODE AND R.ROLE_CODE=?]
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] SqlBuilder.getSql(69) | 原始SQL:SELECT FUNC_NAME,PARENT_FUNC_CODE,FUNC_CODE,ICON_CLASS FROM SYS_FUNC WHERE PARENT_FUNC_CODE=0
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.query(637) | Executing prepared SQL query
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.execute(572) | Executing prepared SQL statement [SELECT FUNC_NAME,PARENT_FUNC_CODE,FUNC_CODE,ICON_CLASS FROM SYS_FUNC WHERE PARENT_FUNC_CODE=0]
+2016-07-08 09:34:41-[Analysis-WC] DEBUG [http-8080-2] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@649b97b1 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@7e4dc3af)
+2016-07-08 09:34:43-[Analysis-WC] DEBUG [http-8080-3] ReqEngine.getTrustedTicket(290) | username=admin&client_ip=0%3A0%3A0%3A0%3A0%3A0%3A0%3A1
+2016-07-08 09:34:58-[Analysis-WC] DEBUG [http-8080-6] ReqEngine.getTrustedTicket(290) | username=admin&client_ip=0%3A0%3A0%3A0%3A0%3A0%3A0%3A1
+2016-07-08 09:35:04-[Analysis-WC] ERROR [http-8080-3] ReqEngine.getTrustedTicket(315) | java.net.ConnectException: Connection timed out: connect
+2016-07-08 10:49:05-[Analysis-WC] INFO [http-8080-2] UserManagerController.loginLog(236) | 接到用户名密码
+2016-07-08 10:49:05-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.query(637) | Executing prepared SQL query
+2016-07-08 10:49:05-[Analysis-WC] DEBUG [http-8080-2] JdbcTemplate.execute(572) | Executing prepared SQL statement [SELECT * FROM  SYS_USER U LEFT JOIN SYS_ROLE R ON U.ROLE_CODE = R.ROLE_CODE WHERE U.USER_NAME = ? AND U.USER_PASSWORD = ?]
+2016-07-08 10:49:05-[Analysis-WC] DEBUG [http-8080-2] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@6f4b39e1 [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@5cca1618)
+2016-07-08 10:49:05-[Analysis-WC] ERROR [http-8080-2] ControllerProxy.afterMethod(43) | java.lang.NullPointerException
+2016-07-08 10:49:08-[Analysis-WC] INFO [http-8080-2] UserManagerController.loginLog(236) | 接到用户名密码
+2016-07-28 14:50:31-[Analysis-WC] WARN [http-8080-8] DispatcherServlet.noHandlerFound(1108) | No mapping found for HTTP request with URI [/Analysis-WebConsole/pt/pa/getPerformanceAnalysisWindFarm] in DispatcherServlet with name 'spring3'
+2016-07-28 14:51:26-[Analysis-WC] INFO [http-8080-8] D3Controller.map(42) | Start map --> map()
+2016-07-28 14:51:27-[Analysis-WC] WARN [http-8080-7] DispatcherServlet.noHandlerFound(1108) | No mapping found for HTTP request with URI [/Analysis-WebConsole/pt/pa/getPerformanceAnalysisWindFarm] in DispatcherServlet with name 'spring3'
+2016-07-28 14:52:35-[Analysis-WC] INFO [http-8080-8] FrameController.dashboard(45) | Start FrameController --> dashboard()
+2016-07-28 14:52:35-[Analysis-WC] DEBUG [http-8080-8] BasicResourcePool.trace(1159) | trace com.mchange.v2.resourcepool.BasicResourcePool@291a87dd [managed: 5, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@39823684)
+2016-07-28 14:52:35-[Analysis-WC] INFO [http-8080-8] FrameServiceImpl.getFuncList(31) | UserEVO [userCode=53, userName=admin, userPassword=null, reUserPassword=null, mechanism=龙源电力集团, userRole=系统管理员, userDefaultRole=, officePhone=null, iphone=null, userEmail=qq@123.com, remark=null, userSex=null, userCodeList=null, name=赵军, mechanismId=0, mecType=0, roleCode=5, funcNodeCode=7, rowNo=0, startDate=2015-03-04, endDateD=2016-03-05, endDateM=2016-03-01, endDateY=2016-01-01, displayLength=0, displayStart=0, totalCount=0, userCodes=null]
+2016-07-28 14:52:35-[Analysis-WC] DEBUG [http-8080-8] SqlBuilder.getSql(69) | 原始SQL:SELECT F.FUNC_NAME,F.FUNC_CODE,F.PARENT_FUNC_CODE,F.REQ_NUM,F.DATA_ID,F.URL,F.ICON_CLASS FROM SYS_ROLE_FUNC_REF R,SYS_FUNC F WHERE R.FUNC_CODE=F.FUNC_CODE AND R.ROLE_CODE=:roleCode
+2016-07-28 15:49:05-[Analysis-WC] ERROR [http-8080-2] ControllerProxy.afterMethod(43) | java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.ap.alt.system.web.LoginMgrController.getSumMXYJTC(LoginMgrController.java:304)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:744)
+2016-07-28 15:52:35-[Analysis-WC] INFO [http-8080-8] FrameController.dashboard(45) | Start FrameController --> dashboard()
